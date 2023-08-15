@@ -1,0 +1,76 @@
+body{
+    background-color: hsl(30, 38%, 92%);
+    margin: 20px 10px;
+    width: 324px;
+    padding: 13px;
+}
+
+.container{
+    background:white;
+    width: 324px;
+    border-radius: 6px;
+    display:flex;
+    flex-direction: column;
+    height: 559px;
+}
+
+.chanel > img{
+    width: 324px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.perfume{
+    font-family: Montserrat;
+    letter-spacing: 5px;
+    font-size: 10px;
+    font-weight: lighter;
+}
+
+.heading{
+    font-family: Fraunces;
+}
+
+.para{
+    font-family: Montserrat;
+    font-size: 14px;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+   
+}
+
+.price #new{
+    font-size: 34px;
+    font-family: Fraunces;
+    color:hsl(158, 36%, 37%);
+}
+
+.price #old{
+    font-family: Montserrat;
+   
+
+}
+
+.cart-btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+
+}
+
+.cart{
+    color: white;
+    background-color:hsl(158, 36%, 37%) ;
+    border-radius: 5px;
+    width: 17rem;
+    height: 2.5rem;
+    border: none;
+
+}
+
+.adjust{
+    padding-left: 2.1rem;
+}
