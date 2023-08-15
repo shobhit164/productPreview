@@ -11,7 +11,8 @@ body{
     border-radius: 6px;
     display:flex;
     flex-direction: column;
-    height: 559px;
+    height: 584px;
+    box-sizing: border-box;
 }
 
 .chanel > img{
@@ -25,15 +26,19 @@ body{
     letter-spacing: 5px;
     font-size: 10px;
     font-weight: lighter;
+    margin-top: 1rem;
+    font-weight: 300;
 }
 
 .heading{
     font-family: Fraunces;
+
 }
 
 .para{
     font-family: Montserrat;
     font-size: 14px;
+    font-weight: 300;
 }
 
 .price{
@@ -50,8 +55,9 @@ body{
 
 .price #old{
     font-family: Montserrat;
-   
-
+    margin-left: 1rem;
+    font-weight: 300;
+    font-size: 13px;
 }
 
 .cart-btn{
