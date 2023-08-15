@@ -74,6 +74,9 @@ body{
     width: 17rem;
     height: 2.5rem;
     border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
