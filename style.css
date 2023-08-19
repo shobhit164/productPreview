@@ -1,8 +1,9 @@
 body{
     background-color: hsl(30, 38%, 92%);
-    margin: 20px 10px;
-    width: 324px;
-    padding: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container{
@@ -21,24 +22,45 @@ body{
     border-top-right-radius: 6px;
 }
 
+.chanel2 > img{
+    height: 26rem;
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.chanel2{
+    display: none;
+   
+}
+
+.heading{
+    font-family: Fraunces;
+}
+
+.heading2{
+    display: none;
+    font-family: Fraunces;
+}
+
 .perfume{
     font-family: Montserrat;
     letter-spacing: 5px;
     font-size: 10px;
     font-weight: lighter;
-    margin-top: 1rem;
+    margin-top: 1.4rem;
     font-weight: 300;
 }
 
-.heading{
-    font-family: Fraunces;
-
-}
 
 .para{
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 300;
+}
+
+.para2{
+    display: none;
+    font-family: Montserrat;
 }
 
 .price{
@@ -64,7 +86,12 @@ body{
     display: flex;
     justify-content: center;
     margin-top: 1rem;
+    margin-right: 1.2rem;
 
+}
+
+.cart:hover{
+    cursor: pointer;
 }
 
 .cart{
@@ -81,5 +108,40 @@ body{
 }
 
 .adjust{
-    padding-left: 2.1rem;
+    margin-left: 1.1rem;
+    height: 26rem;
+}
+
+@media  screen and (min-width:375px){
+    .container{
+        display: flex;
+        flex-direction: row;
+        height: 416px;    
+        width: 592px;
+    }
+    
+    .chanel2{
+        display: block;
+        height: 26rem;
+    }
+
+    .chanel{
+        display:none;
+    }
+
+    .heading2{
+        display:block;
+    }
+
+    .heading{
+        display: none;
+    }
+
+    .para{
+        display: none;
+    }
+
+    .para2{
+        display: block;
+    }
 }
